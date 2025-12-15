@@ -1,0 +1,114 @@
+/* Styling Umum */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Warna latar belakang ringan */
+    color: #333;
+}
+
+/* Container */
+.container {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+/* Header dan Judul Utama */
+header {
+    background: linear-gradient(135deg, #1abc9c, #16a085); /* Gradient hijau-biru */
+    color: white;
+    padding: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Navigasi */
+.navbar {
+    border-radius: 8px;
+    background-color: #3498db !important; /* Warna biru Curug */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 15px;
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: 500;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Styling Daftar Paket Wisata (Card) */
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    color: #3498db; /* Biru Curug */
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* Styling Form (Halaman Pemesanan/Edit) */
+form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.form-label {
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+/* Styling Tabel (Halaman Modifikasi) */
+.table-responsive {
+    margin-top: 20px;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+    background-color: #ecf0f1; /* Abu-abu muda */
+}
+
+.table th {
+    background-color: #2c3e50; /* Header gelap */
+    color: white;
+    vertical-align: middle;
+}
+
+.btn-primary {
+    background-color: #3498db;
+    border-color: #3498db;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+}
